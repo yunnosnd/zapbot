@@ -1,0 +1,12 @@
+node_modules
+*.swp
+.DS_Store
+
+logs/
+
+tmp/
+cache/
+
+.vscode/
+
+.wwebjs-cache
