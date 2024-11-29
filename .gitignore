@@ -9,4 +9,7 @@ cache/
 
 .vscode/
 
-.wwebjs-cache
+.wwebjs_cache/
+
+.wwebjs_auth/
+.wwebjs_authss/
