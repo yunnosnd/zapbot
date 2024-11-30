@@ -2,7 +2,7 @@
   "name": "zapbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "license": "AGPL-version-3.0",
   "private": false,
@@ -22,14 +22,16 @@
   },
   "contributors": [],
   "scripts": {
+    "start": "node main.js",
     "dev": "",
     "test": ""
   },
   "dependencies": {
+    "cross-spawn": "^7.0.6",
+    "electron": "^33.2.1",
     "fs": "^0.0.1-security",
-    "node-notifier": "^10.0.1",
     "qrcode": "^1.5.4",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.26.0"
+    "whatsapp-web.js": "^1.26.0",
+    "ws": "^8.18.0"
   }
 }

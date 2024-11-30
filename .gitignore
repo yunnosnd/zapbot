@@ -13,3 +13,6 @@ cache/
 
 .wwebjs_auth/
 .wwebjs_authss/
+
+bot.cjs
+mainold.js
